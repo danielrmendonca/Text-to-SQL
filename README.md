@@ -29,7 +29,12 @@
   Para segurança, a chave de API não deve ser exposta no código. No Google Colab, utilize a funcionalidade de <strong>Secrets</strong>.
 </p>
 
-<h3>4. Execução do Agente</h3>
+<h3>4. Upload do banco de dados</h3>
+<p>
+  No Google Colab, faça o upload do banco.db na pasta de arquivos no lado esquerdo da tela, para acessar usando o caminho <strong>/content/banco.db</strong>.
+</p>
+
+<h3>5. Execução do Agente</h3>
 <p>Abra o arquivo <code>Text_to_SQL.ipynb</code> e execute a célula principal. O agente iniciará um loop interativo no terminal aguardando sua pergunta.</p>
 
 <hr>
